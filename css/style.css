@@ -116,3 +116,17 @@ footer li {
 .content4 {
   grid-area: content4;
 }
+
+@media only screen and (max-width: 600px) {
+    .flexContainer div {
+      width: 33%;
+      padding: 25px;
+    }
+    .workGrid {
+      grid-template-columns: lfr;
+      grid-template-rows: 350px 350px 350px 350px 350px;
+      grid-template-areas:
+      "img1 content1"
+      "img2 content2"
+      "img3 content3"
+      ;
